@@ -83,7 +83,7 @@ body{
         border-radius: 10%;
         display: flex;
         justify-content: center;
-        background-image: url(avance-agence-communication-metz-nancy-organisation-evenement-02.jpg);
+        background-image: url("Les images/avance-agence-communication-metz-nancy-organisation-evenement-02.jpg");
         background-size: cover;
     }
     .poureventsimage2{
@@ -92,7 +92,7 @@ body{
         border-radius: 10%;
         display: flex;
         justify-content: center;
-        background-image: url(0a2f3f88c68a-football.jpg);
+        background-image: url("Les images/0a2f3f88c68a-football.jpg");
         background-size: cover;
     }
     .poureventsimage3{
@@ -101,7 +101,7 @@ body{
         border-radius: 10%;
         display: flex;
         justify-content: center;
-        background-image: url(holi.jpg);
+        background-image: url("Les images/holi.jpg");
         background-size: cover;
     }
     .poureventsimage4{
@@ -110,7 +110,7 @@ body{
         border-radius: 10%;
         display: flex;
         justify-content: center;
-        background-image: url(istockphoto-2171086563-170667a.jpg);
+        background-image: url("Les images/istockphoto-2171086563-170667a.jpg");
         background-size: cover;
     }
     .text{
