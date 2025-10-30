@@ -1,0 +1,150 @@
+body{
+    background-color: #faf8d2;
+    display: grid;
+    place-content: center;
+
+}
+.content1{
+    border: 2px solid #8B8847;
+    background-color: #f2eeac;
+    width: 80rem;
+    height: 37rem;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:7rem;
+    align-items: center;
+     
+}
+.titre{
+    font-size: 2rem;
+    height: 0.5rem;
+    margin: 0;
+}
+.container1{
+    width: 70rem;
+    height: 20rem;
+   display: flex;
+   gap:1rem;
+   
+}
+#events{
+    height: 100%;
+    width: 24%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(254, 254, 239);
+    box-shadow: 0 0 5px;
+    transition: scale 0.5s linear;
+    }
+    #events2{
+    height: 100%;
+    width: 24%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(254, 254, 239);
+    box-shadow: 0 0 5px;
+    transition: scale 0.5s linear;
+    }
+    #events3{
+    height: 100%;
+    width: 24%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(254, 254, 239);
+    box-shadow: 0 0 5px;
+    transition: scale 0.5s linear;
+    }
+    #events4{
+    height: 100%;
+    width: 24%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(254, 254, 239);
+    box-shadow: 0 0 5px;
+    transition: scale 0.5s linear;
+    }
+    .poureventsimage1{
+        height:50%;
+        width: 90%;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        background-image: url(avance-agence-communication-metz-nancy-organisation-evenement-02.jpg);
+        background-size: cover;
+    }
+    .poureventsimage2{
+        height:50%;
+        width: 90%;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        background-image: url(0a2f3f88c68a-football.jpg);
+        background-size: cover;
+    }
+    .poureventsimage3{
+        height:50%;
+        width: 90%;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        background-image: url(holi.jpg);
+        background-size: cover;
+    }
+    .poureventsimage4{
+        height:50%;
+        width: 90%;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
+        background-image: url(istockphoto-2171086563-170667a.jpg);
+        background-size: cover;
+    }
+    .text{
+        width: 89%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .continue-btn{
+        width: 20%;
+        height: 5%;
+        border-radius: 15px;
+        border: 2px solid #8B8847;
+    }
+    #events:hover{
+        border: 2px solid #fff200;
+        scale: 1.03;
+    }
+    #events2:hover{
+        border: 2px solid #fff200;
+        scale: 1.03;
+    }
+    #events3:hover{
+        border: 2px solid #fff200;
+        scale: 1.03;
+    }
+    #events4:hover{
+        border: 2px solid #fff200;
+        scale: 1.03;
+    }
+
+
+
+   
+    
+    
