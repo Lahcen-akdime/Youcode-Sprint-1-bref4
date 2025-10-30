@@ -4,6 +4,7 @@ body{
     place-content: center;
 
 }
+/* ================== Etape 1 ==================== */
 .content1{
     border: 2px solid #8B8847;
     background-color: #f2eeac;
@@ -143,8 +144,80 @@ body{
         scale: 1.03;
     }
 
-
-
+/* ================== Etape 2 ==================== */
+.content2{
+    border: 2px solid #8B8847;
+    background-color: #f2eeac;
+    width: 80rem;
+    height: 37rem;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:7rem;
+    align-items: center;
+     
+}
+.clickdivs{
+height: 60%;
+width: 60%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+ } 
+ .plus{
+   box-shadow: 0 0 5px;
+    height: 95%;
+    width: 35%;
+    border-radius: 15px;
+    background-color: #EEE875;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }  
+ .conteur{
+     border:0.01px solid black ;
+    height: 40%;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px;
+ background-color: #fcf798;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ }
+ .moin{
    
+    height: 95%;
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px;
+ background-color: #faf7c6;
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
-    
+ }    
+ .plusimage{
+    height: 76%;
+    justify-self: flex-start;
+ }
+ .moinimage{
+    height: 60%;
+    justify-self: flex-start;
+ }
+ .moin:active{
+    background-color: #f9f4a0;
+ }
+  .plus:active{
+    background-color: #f9f4a0;
+ }
+ #lesbillets{
+   font-size: 30px;
+ }
+.tocolumn{
+    display: flex;
+    flex-direction: column;
+}
