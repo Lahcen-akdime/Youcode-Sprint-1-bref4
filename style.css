@@ -154,7 +154,7 @@ body{
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap:7rem;
+    gap:5rem;
     align-items: center;
      
 }
@@ -216,8 +216,41 @@ justify-content: space-between;
  }
  #lesbillets{
    font-size: 30px;
+   margin: 0;
  }
 .tocolumn{
     display: flex;
     flex-direction: column;
+}
+.suivant-précedent{
+    height: 10rem;width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+#back{
+height: 100%;
+width: 20rem;
+border-radius: 15px;
+font-size: 1.4rem;
+}
+#go{
+    height: 100%;
+width: 20rem;
+border-radius: 15px;
+font-size: 1.4rem;
+}
+
+/* ================== Etape 3 ==================== */
+.content3{
+ border: 2px solid #8B8847;
+    background-color: #f2eeac;
+    width: 80rem;
+    height: 37rem;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    align-items: center;
+    
 }
