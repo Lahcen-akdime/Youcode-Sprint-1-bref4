@@ -232,12 +232,16 @@ height: 100%;
 width: 20rem;
 border-radius: 15px;
 font-size: 1.4rem;
+border: 2px solid #8B8847;
+color: #58562d;
 }
 #go{
     height: 100%;
 width: 20rem;
 border-radius: 15px;
 font-size: 1.4rem;
+border: 2px solid #8B8847;
+color: #58562d;
 }
 
 /* ================== Etape 3 ==================== */
@@ -277,9 +281,11 @@ padding: 1rem;
     border-radius: 15px;
     width: 28%;
     background-color: #fcf68d;
-
+display: flex;
+flex-direction: column;
 }
 #toflex{
+    padding: 3%;
 display: flex;justify-content: space-between;
 }
 #nom{
@@ -306,4 +312,19 @@ border-radius: 15px;
     background-color: #8B8847;
     background-color: #EEE875;
     font-size: 0.9rem;
+}
+#combien{
+    border: 1px solid black;
+height:1.3rem;
+width: 3rem;
+text-align: center;
+background-color: white;
+border-radius: 10px;
+}
+#liste{
+    border: 1px solid black;
+height: 70%;
+width:94%;
+align-self: center;
+
 }

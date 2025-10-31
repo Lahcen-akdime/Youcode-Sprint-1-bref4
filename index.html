@@ -21,47 +21,47 @@
 
                 </div>
                 <div class="text">
-                <b>Présentation de project national</b>
-                <p style="margin: 0;">01/11/2025<br></p>
-                <p style="margin: 0;">Marrakech</p>
-                <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">200</span>dh</p>
-                <p style="margin: 0;">100 place réstant</p>
-    </div>
+                    <b>Présentation de project national</b>
+                    <p style="margin: 0;">01/11/2025<br></p>
+                    <p style="margin: 0;">Marrakech</p>
+                    <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">200</span>dh</p>
+                    <p style="margin: 0;">100 place réstant</p>
+                </div>
             </div>
             <div class="event" id="events2">
-                 <div class="poureventsimage2">
+                <div class="poureventsimage2">
 
                 </div>
                 <div class="text">
-                <b>Match d'appartenents youcode</b>
-                <p style="margin: 0;">05/11/2025<br></p>
-                <p style="margin: 0;">Youssoufia</p>
-                <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">50</span>dh</p>
-                <p style="margin: 0;">50 place réstant</p>
+                    <b>Match d'appartenents youcode</b>
+                    <p style="margin: 0;">05/11/2025<br></p>
+                    <p style="margin: 0;">Youssoufia</p>
+                    <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">50</span>dh</p>
+                    <p style="margin: 0;">50 place réstant</p>
                 </div>
             </div>
             <div class="event" id="events3">
-                 <div class="poureventsimage3">
+                <div class="poureventsimage3">
 
                 </div>
                 <div class="text">
-                <b>La grande féte des couleurs a la premier fois au maroc</b>
-                <p style="margin: 0;">15/12/2025<br></p>
-                <p style="margin: 0;">Rabat</p>
-                <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">150</span>dh</p>
-                <p style="margin: 0;">43 place réstant</p>
+                    <b>La grande féte des couleurs a la premier fois au maroc</b>
+                    <p style="margin: 0;">15/12/2025<br></p>
+                    <p style="margin: 0;">Rabat</p>
+                    <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">150</span>dh</p>
+                    <p style="margin: 0;">43 place réstant</p>
                 </div>
             </div>
             <div class="event" id="events4">
-                 <div class="poureventsimage4">
+                <div class="poureventsimage4">
 
                 </div>
                 <div class="text">
-                <b>La grande féte Anniversere de 2026</b>
-                <p style="margin: 0;">30/12/2026<br></p>
-                <p style="margin: 0;">Agadir</p>
-                <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">200</span>dh</p>
-                <p style="margin: 0;">900 place réstant</p>
+                    <b>La grande féte Anniversere de 2026</b>
+                    <p style="margin: 0;">30/12/2026<br></p>
+                    <p style="margin: 0;">Agadir</p>
+                    <p style="margin: 0;color: rgb(42, 181, 42);"><span id="price">200</span>dh</p>
+                    <p style="margin: 0;">900 place réstant</p>
                 </div>
             </div>
         </div>
@@ -73,32 +73,34 @@
             <p class="titre">______________________</p>
         </div>
         <div class="clickdivs">
-            <div onclick= toadd() class="plus">
+            <div onclick=toadd() class="plus">
                 <img src="Les images/plus-icon-download-png-and-vector-17.png" class="plusimage">
                 <p style="font-size: 2rem;margin: 0;">Adder un billet</p>
             </div>
             <div class="conteur">
                 <p id="lesbillets">1</p>
-                <div ><p>totale à payer :<span id="totale"></span></p> </div>
+                <div>
+                    <p>totale à payer :<span id="totale"></span></p>
+                </div>
 
             </div>
-         
-            <div onclick= toremove()  class="moin">
+
+            <div onclick=toremove() class="moin">
                 <img src="Les images/1270000.png" class="moinimage">
                 <p style="font-size: 2rem;margin: 18px;display: block;">Remover un billet</p>
             </div>
-            
-            
+
+
         </div>
-           <div class="suivant-précedent">
-            <div><button id="back"  onclick=returnto1()>Précedent</button></div>
+        <div class="suivant-précedent">
+            <div><button id="back" onclick=returnto1()>Précedent</button></div>
             <div><button id="go" onclick=goto3()>Suivante </button></div>
-           
-            </div>
-        
+
         </div>
+
+    </div>
     <div class="content3" id="content3">
-         <div style="align-self: flex-start;">
+        <div style="align-self: flex-start;">
             <p class="titre">S’il vous plis entrer les informations pour chaque participant : </p>
             <p class="titre">__________________________________________________</p>
         </div>
@@ -108,20 +110,24 @@
                     <label id="nom">Nom </label>
                     <input type="text" id="setting">
                     <label id="nom">Prénom</label>
-                    <input type="text" id="setting" >
+                    <input type="text" id="setting">
                     <label id="nom">Télephone </label>
-                    <input type="number" id="setting" >
+                    <input type="number" id="setting">
                     <label id="nom">Email </label>
                     <input type="email" id="setting">
                 </form>
-                <button id="entrer">Entrer</button>
+                <button id="entrer" onclick=startloop()>Entrer</button>
             </div>
             <div class="informations">
-                <div style="">
-                <p>Les participants : </p>
-                <p id="combien">ok</p>
+                <div id="toflex">
+                    <p>Les participants : </p>
+                    <p id="combien">!?</p>
+                </div>
+                <div id="liste">
+                    
                 </div>
             </div>
+
         </div>
     </div>
 

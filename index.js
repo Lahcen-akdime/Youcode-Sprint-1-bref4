@@ -62,5 +62,15 @@ tohide.style.display="flex" ;
 function goto3(){
 tohide2.style.display="none" ;
 title.textContent="______________________ Troisiéme étape ______________________";
+startloop() ;
+}
+let first=1
+function startloop(){
+for(first;first<=conteur;first++){
+    document.getElementById("combien").textContent=first + "/" + conteur;
+    first += 1 ;
+    return;
+    
+}
 }
 
