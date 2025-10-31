@@ -254,3 +254,56 @@ font-size: 1.4rem;
     align-items: center;
     
 }
+.container2{
+    height: 70%;
+    width: 95%;
+    display: flex;
+    gap: 1rem;
+}
+.formulaire{
+ box-shadow: 0 0 5px;
+padding: 1rem;
+    height: 95%;
+    width: 68%;
+    border-radius: 15px;
+    background-color: #fcf68d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.informations{
+ box-shadow: 0 0 5px;
+    height: 26.6rem;
+    border-radius: 15px;
+    width: 28%;
+    background-color: #fcf68d;
+
+}
+#toflex{
+display: flex;justify-content: space-between;
+}
+#nom{
+    font-size: 2rem;
+}
+#organisation-inputs{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+#setting{
+height: 2rem;
+border-radius: 15px;
+font-size: larger;
+
+}
+#entrer{
+    align-self: center;
+    height: 7%;
+width: 20%;
+border-radius: 15px;
+}
+#entrer:active{
+    background-color: #8B8847;
+    background-color: #EEE875;
+    font-size: 0.9rem;
+}
