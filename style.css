@@ -243,7 +243,6 @@ font-size: 1.4rem;
 border: 2px solid #8B8847;
 color: #58562d;
 }
-
 /* ================== Etape 3 ==================== */
 .content3{
  border: 2px solid #8B8847;
@@ -254,7 +253,7 @@ color: #58562d;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    gap:5rem;
+    gap:3rem;
     align-items: center;
     
 }
@@ -290,19 +289,17 @@ display: flex;justify-content: space-between;
 }
 #nom{
     font-size: 2rem;
+    height: 2rem;
+border-radius: 15px;
+font-size: larger;
 }
 #organisation-inputs{
     display: flex;
     flex-direction: column;
     gap:5px;
 }
-#setting{
-height: 2rem;
-border-radius: 15px;
-font-size: larger;
-
-}
 #entrer{
+    margin-top: 1rem;
     align-self: center;
     height: 7%;
 width: 20%;
@@ -321,10 +318,123 @@ text-align: center;
 background-color: white;
 border-radius: 10px;
 }
+#prenom{
+height: 2rem;
+border-radius: 15px;
+font-size: larger;
+
+}
+#email{
+height: 2rem;
+border-radius: 15px;
+font-size: larger;
+
+}
+#tele{
+height: 2rem;
+border-radius: 15px;
+font-size: larger;
+
+}
 #liste{
-    border: 1px solid black;
 height: 70%;
 width:94%;
 align-self: center;
+overflow: scroll;
+}
+/*===================== Etape 4 =========================*/
+.content4{
+     border: 2px solid #8B8847;
+    background-color: #f2eeac;
+    width: 80rem;
+    height: 37rem;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:6rem;
+    align-items: center;
+position: relative;
 
+}
+#valide{
+height: 100%;
+width: 20rem;
+border-radius: 15px;
+font-size: 1.4rem;
+border: 2px solid #8B8847;
+color: #58562d;
+}
+#confirmer{
+height: 100%;
+width: 20rem;
+border-radius: 15px;
+font-size: 1.4rem;
+border: 2px solid #8B8847;
+color: #58562d;
+background-color: #fcf794;
+}
+#lecarte-back{
+ box-shadow: 0 0 5px;
+height: 20rem;
+width: 50rem;
+border-radius: 15px;
+background-color: #f7f289;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#lecarte-choisi{
+height: 24rem;
+width: 18rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+background-color: #faf36d;
+position: absolute;
+top:6rem;
+left: 6.4rem;
+ box-shadow: 0 0 5px;
+ padding-top: 1%;
+
+}
+#les-participant{
+ box-shadow: 0 0 5px;
+height: 20rem;
+width: 22rem;
+border-radius: 15px;
+background-color: #f7f289;
+
+}
+
+.container3{
+    height: 70%;
+    width: 95%;
+    display: flex;
+    gap: 1rem;
+}
+#version-finale{
+    height: max-content;
+    width: max-content;
+}
+#yes{
+    height: 1.5rem;
+    position: absolute;
+    top: 0.9rem;
+    left: 30rem;
+}
+#partlist{
+    height: 65%;
+    width: 90%;
+   background-color: #fbf690;
+ box-shadow: 0 0 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    overflow:auto ;
 }
